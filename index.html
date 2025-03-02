@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XO Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>XO Game</h1>
+    <div class="board">
+      <button id="00" onclick="SetX(this)" class="cell"></button>
+      <button id="01" onclick="SetX(this)" class="cell"></button>
+      <button id="02" onclick="SetX(this)" class="cell"></button>
+      <button id="10" onclick="SetX(this)" class="cell"></button>
+      <button id="11" onclick="SetX(this)" class="cell"></button>
+      <button id="12" onclick="SetX(this)" class="cell"></button>
+      <button id="20" onclick="SetX(this)" class="cell"></button>
+      <button id="21" onclick="SetX(this)" class="cell"></button>
+      <button id="22" onclick="SetX(this)" class="cell"></button>
+    </div>
+  </div>
+
+  <section>
+    <div class="ss"></div>
+  </section>
+
+  <div class="winner-overlay">
+    <div class="winner-text">X Wins!</div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
